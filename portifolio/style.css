@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(5, 5, 26, 0.897), rgb(1, 1, 1), rgb(5, 1, 1), rgb(6, 6, 19)  );
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#container_redes {
+    width: 400px;
+    height: 500px;
+    margin-left: 5vw;
+    margin-right: 400px;
+    margin-top: 170px;
+    position: fixed;
+}
+
+    #nomes {
+        margin-top: 100px;
+    }
+
+    #redes_sociais {
+        margin-top: 100px;
+    }
+
+        #img_git {
+            width: 40px;
+            margin-top: 5px;
+            display: inline-block;
+        }
+
+        #img_insta {
+            width: 40px;
+            margin-top: 5px;
+            display: inline-block;
+        }
+
+        #nome {
+            font-size: 28pt;
+            color: rgb(255, 255, 255);
+        }
+        #programador {
+            font-size: 18pt;
+            color: rgb(255, 255, 255);
+            margin-top: 10px;
+        }
+
+        .nomes {
+            margin-top: -30px;
+            margin-left: 35px;
+            position: absolute;
+            color: rgb(255, 255, 255);
+        }
+
+        .nomes:hover {
+            text-decoration: underline;
+    }
+
+    a {
+        display: block;
+    }
+
+    #img_linkedin {
+        width: 40px;
+    }
+
+#container_projetos {
+    width: 730px;
+    min-height: 350px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 160px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.projetos {
+    margin-left: 15px;
+    margin-top: -60px;
+    width: 340px;
+    height: 110px;
+    background-color: rgba(65, 65, 65, 0.603);
+    display: inline-block;
+    border-radius: 3px;
+    position: absolute;
+    margin-right: 200px;
+}
+
+.projetos:hover {
+    margin-left: 12px;
+    margin-top: -63px;
+    background-color: rgba(65, 65, 65, 0.808);
+    cursor: pointer;
+    padding: 3px;
+}
+
+#coluna_1 {
+    margin-top: 90px;
+}
+
+
+#coluna_2 {
+    margin-left: 360px;
+}
+
+#mousepad {
+    margin-top: 80px;
+}
+
+#produzindo {
+    margin-top: 80px;
+}
+
+#coluna_1 > p, #coluna_2 > p {
+    text-decoration: none;
+    color: white;
+}
+
+
+    .descricao {
+        color: white;
+        font-size: 21pt;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .descri2 {
+        color: white;
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 10pt;
+    }
+
+    #linguagem {
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 190px;
+        height: 30px;
+        background-color: rgba(128, 128, 128, 0);
+    }
+
+    .bolinha {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: white;
+        display: inline-block;
+    }
+
+    .p_bolinhas {
+        display: inline-block;
+        font-size: 9pt;
+        color: white;
+    }
+
+    #linguagem2 {
+        margin-left: 15px;
+        margin-top: 7px;
+    }

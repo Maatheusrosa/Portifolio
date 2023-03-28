@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1440px){
+    #container_projetos {
+        margin-left: 42%;
+        width: 590px;
+        background-color: rgba(128, 128, 128, 0);
+    }
+
+    #container_redes {
+        margin-top: 100px;
+    }
+
+    .projetos:hover {
+        margin-left: 12px;
+        margin-top: -43px;
+        background-color: rgba(65, 65, 65, 0.808);
+        cursor: pointer;
+        padding: 3px;
+    }
+    
+    .projetos {
+        width: 270px;
+        margin-top: -40px;
+    }
+
+    .descricao {
+        font-size: 17pt;
+    }
+
+    .descri2 {
+        font-size: 9pt;
+    }
+
+    #coluna_2 {
+        margin-left: 280px;
+    }
+}
